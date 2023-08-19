@@ -18,9 +18,10 @@ import {
 } from '@mui/material';
 import {alpha} from "@mui/material/styles";
 import styled from "@emotion/styled";
-import {LocalizationProvider, MobileDatePicker} from "@mui/lab";
-import {ru} from "date-fns/esm/locale";
-import AdapterDateFns from "@mui/lab/AdapterDateFns";
+import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+import { MobileDatePicker } from '@mui/x-date-pickers/MobileDatePicker';
+import { ru } from 'date-fns/esm/locale';
+import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import {FormProvider, RHFSwitch} from "../../../../components/hook-form";
 import RHFInteger from "../../../../components/hook-form/RHFInteger";
 import RHFMultiSelect from "../../../../components/hook-form/RHFMultiSelect";
